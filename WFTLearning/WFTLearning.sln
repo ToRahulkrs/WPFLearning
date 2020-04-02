@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RangeControl-ScrollbarAndSl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfProgressBar", "WpfProgressBar\WpfProgressBar.csproj", "{9E780FD4-FE18-44F6-BF93-C5E1C110E67F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFControlComboBox", "WPFControlComboBox\WPFControlComboBox.csproj", "{10D0793B-C16E-4E7E-ADFC-E719181A188C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{9E780FD4-FE18-44F6-BF93-C5E1C110E67F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E780FD4-FE18-44F6-BF93-C5E1C110E67F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E780FD4-FE18-44F6-BF93-C5E1C110E67F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10D0793B-C16E-4E7E-ADFC-E719181A188C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10D0793B-C16E-4E7E-ADFC-E719181A188C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10D0793B-C16E-4E7E-ADFC-E719181A188C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10D0793B-C16E-4E7E-ADFC-E719181A188C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
