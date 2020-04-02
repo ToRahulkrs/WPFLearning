@@ -1,0 +1,36 @@
+﻿<Window x:Class="WPFMenuControlsExamples.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFMenuControlsExamples"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <DockPanel LastChildFill="False">
+        <StackPanel DockPanel.Dock="Top">
+            <Menu>
+                <MenuItem Name="File">
+                    <MenuItem Name="New">
+                        <MenuItem Name="Project"/>
+                    </MenuItem>
+                </MenuItem>
+                <MenuItem Header="Edit"/>
+                <MenuItem Header="View"/>
+            </Menu>
+            <ToolBar Height="45"  DockPanel.Dock="Left">
+                <Button>
+                    <Image Source="/Image/Item1.png" Width="25" Height="25"/>
+                </Button>
+                <Separator/>
+                <Button>
+                    <Image Source="/Image/Item2.png" Width="25" Height="25"/>
+                </Button>
+            </ToolBar>
+        </StackPanel>
+        <StatusBar DockPanel.Dock="Bottom">
+            <Label>Progress 45%</Label>
+            <Separator/>
+            <Label>project Loding..</Label>
+        </StatusBar>
+    </DockPanel>
+</Window>
