@@ -1,0 +1,35 @@
+﻿<Window x:Class="WPFControlListBox.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFControlListBox"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <ListBox Width="320" Height="250" Margin="12" FontSize="16" SelectionMode="Multiple"
+                 ScrollViewer.CanContentScroll="False">
+            <StackPanel Orientation="Horizontal" TextSearch.Text="Fowler">
+                <Image Source="/Image/Image1.jpg" Width="100" Height="100"
+                       RenderOptions.BitmapScalingMode="HighQuality" Margin="10"/>
+                <TextBlock Text="This is a image1" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" TextSearch.Text="Fowler">
+                <Image Source="/Image/Image2.jpg" Width="100" Height="100"
+                       RenderOptions.BitmapScalingMode="HighQuality" Margin="10"/>
+                <TextBlock Text="This is a image2" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" TextSearch.Text="Fowler">
+                <Image Source="/Image/Image3.jpg" Width="100" Height="100"
+                       RenderOptions.BitmapScalingMode="HighQuality" Margin="10"/>
+                <TextBlock Text="This is a image3" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" TextSearch.Text="Fowler">
+                <Image Source="/Image/Image4.jpg" Width="100" Height="100"
+                       RenderOptions.BitmapScalingMode="HighQuality" Margin="10"/>
+                <TextBlock Text="This is a image4" />
+            </StackPanel>
+        </ListBox>
+                 
+    </StackPanel>
+</Window>
