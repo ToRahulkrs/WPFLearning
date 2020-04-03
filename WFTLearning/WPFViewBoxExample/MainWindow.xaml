@@ -1,0 +1,34 @@
+﻿<Window x:Class="WPFViewBoxExample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFViewBoxExample"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+
+    <Viewbox Stretch="Uniform" StretchDirection="Both">
+        <StackPanel Margin="15">
+            <Border Width="150" Height="100" Margin="12" BorderBrush="Green" BorderThickness="3">
+                <Viewbox Stretch="None">
+                    <Image Source="/Image/Image1.jpg" />
+                </Viewbox>
+            </Border>
+            <Border Width="150" Height="100" Margin="12" BorderBrush="Green" BorderThickness="3">
+                <Viewbox Stretch="Fill">
+                    <Image Source="/Image/Image1.jpg" />
+                </Viewbox>
+            </Border>
+            <Border Width="150" Height="100" Margin="12" BorderBrush="Green" BorderThickness="3">
+                <Viewbox Stretch="Uniform">
+                    <Image Source="/Image/Image1.jpg" />
+                </Viewbox>
+            </Border>
+            <Border Width="150" Height="100" Margin="12" BorderBrush="Green" BorderThickness="3">
+                <Viewbox Stretch="UniformToFill">
+                    <Image Source="/Image/Image1.jpg" />
+                </Viewbox>
+            </Border>
+        </StackPanel>
+    </Viewbox>
+</Window>
